@@ -28,5 +28,14 @@ public class Main {
         // 2 ^ 63
         long myLongMin = 100L;
         long myLongMax = 100L;
+
+        // Challenge
+        byte cByte= 24;
+        short cShort= 56;
+        int cInt= 78;
+        int cSum= cByte + cShort + cInt;
+        System.out.println(cSum * 10);
+        long cLong= 50_000L + 10L * cSum;
+        System.out.println("cLong = " + cLong);
     }
 }
